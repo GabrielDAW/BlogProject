@@ -1,0 +1,130 @@
+@media (max-width: 900px) {
+
+    .header-icons-container {
+        padding: 0 16px;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 16px;
+    }
+    nav .nav-logo-container img {
+        width: 160px;
+    }
+
+    /* ---- Sección BLOGS ---- */
+    .blogs-news-container {
+        padding: 32px 16px;
+    }
+    .blogs-main-new {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        gap: 24px;
+    }
+    .blogs-main-new h3 {
+        font-size: 1.6rem;
+        padding-bottom: 8px;
+    }
+    .blogs-news-img-container {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .blogs-news-img-container img {
+        width: 100%;
+    }
+
+    .blogs-news-info-container {
+        grid-column: 1;
+        grid-row: 2;
+        gap: 8px;
+    }
+    .blogs-news-info-container h2 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .blogs-news-info-container a {
+        margin-top: 16px;
+    }
+
+    .title-posts {
+        font-size: 1.8rem;
+        padding: 40px 0 8px;
+    }
+
+    .blogs-posts-container {
+        padding: 0 16px 120px;
+    }
+
+    .post-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+    }
+    .post-container {
+        gap: 8px;
+    }
+    .post-container img {
+        margin-bottom: 8px;
+    }
+
+    /* ---- Sección BLOG ---- */
+    .blog-img-container {
+        padding: 0 16px;
+    }
+    .main-post-container {
+        padding: 0 16px 64px;
+    }
+    .epigrafe-post {
+        padding: 40px 0 8px;
+    }
+    .info-post-container .title-post {
+        font-size: 2.4rem;
+        padding-bottom: 0px;
+    }
+
+    /* ---- Sección PERFIL ---- */
+    .blog-main-perfil {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        align-items: center;
+        gap: 16px;
+    }
+    .blog-perfil-info-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        grid-column: 1;
+    }
+    .proyectos-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
+    .proyecto-container {
+        gap: 8px;
+    }
+
+    /* ---- Sección CONTACTO ---- */
+    .contact-main-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        padding: 48px 16px;
+        gap: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .post-items {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    .proyectos-items {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
